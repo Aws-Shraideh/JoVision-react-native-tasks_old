@@ -1,9 +1,9 @@
 import {useState} from "react"
 import { StyleSheet, Text, View } from "react-native"
 
-const MyFunctionalComponenet_Task17 = () =>
+const MyFunctionalComponenet_Task18 = () =>
     {
-        const {text, setText} = useState('Text for Task#17')
+        const {text, setText} = useState('Text for Task#18')
         return
         (
             <View style={StyleSheet.container}>
@@ -25,4 +25,4 @@ const styles = StyleSheet.create
         }
     }
 )
-export default MyFunctionalComponenet_Task17
+export default MyFunctionalComponenet_Task18
