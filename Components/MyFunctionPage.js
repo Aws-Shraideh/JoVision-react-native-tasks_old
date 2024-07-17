@@ -1,18 +1,16 @@
-import React from "react"
+import {useState} from "react"
 import { StyleSheet, Text, View } from "react-native"
 
-class MyClassPage extends React.Component
-{
-    render() {
-        const text = ('Text in the MyClassPage component')
+const MyFunctionPage = () =>
+    {
+        const text = ('Text in the MyFunctionPage')
         return(
-            <View style={StyleSheet.container}>
-                <Text style={StyleSheet.demoText}>{text}</Text>
+            <View style={styles.container}>
+                <Text style={styles.demoText}>{text}</Text>
             </View>
         )
 
     }
-}
 const styles = StyleSheet.create
 (
     {
@@ -26,4 +24,4 @@ const styles = StyleSheet.create
         }
     }
 )
-export default MyClassPage
+export default MyFunctionPage
