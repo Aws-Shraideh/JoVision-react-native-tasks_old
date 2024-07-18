@@ -27,7 +27,9 @@ const Task29 = () =>
         )}
         function inputTest()
         {
+            try{
             const intNum = parseInt(num)
+
             if(intNum >= 0 && intNum < 10)
             {
                 ref.current.scrollToIndex({index : intNum}) 
@@ -37,6 +39,10 @@ const Task29 = () =>
                 Alert.alert('Error','Please enter the index in the text box')
             }
         }
+        catch(error){
+            Alert.alert('Error',error)
+        }
+    }
    
 
         
