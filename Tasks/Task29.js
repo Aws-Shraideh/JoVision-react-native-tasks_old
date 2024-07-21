@@ -36,7 +36,7 @@ const Task29 = () =>
             }
             else
             {
-                Alert.alert('Error','Please enter the index in the text box')
+                Alert.alert('Error','Please enter a valid index in the text box')
             }
         }
         catch(error){
