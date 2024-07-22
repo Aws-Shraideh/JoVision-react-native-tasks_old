@@ -1,5 +1,5 @@
 import React from 'react'
-import {StyleSheet, Text, SafeAreaView, ScrollView, StatusBar} from 'react-native'
+import {StyleSheet, Text, SafeAreaView, ScrollView} from 'react-native'
 
 const Task36 = () =>
     {
@@ -124,8 +124,6 @@ const Task36 = () =>
     const styles = StyleSheet.create({
         container: {
           flex: 1,
-          //paddingTop: StatusBar.currentHeight,
-          //paddingBottom: StatusBar.currentHeight,
         },
         scrollView: {
           marginHorizontal: 20,
